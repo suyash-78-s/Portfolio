@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: antiquewhite;
+}
+
+
+p{
+    background: wheat;
+    color: rgb(0, 0, 0);
+    left: 5%;
+    right: 50%;
+}
