@@ -187,7 +187,6 @@ button:focus-visible {
   margin-bottom: 20px;
 }
 
-
 /* src/components/Education.css */
 .education-container {
   background-color: #000;
@@ -197,24 +196,25 @@ button:focus-visible {
   font-family: Arial, sans-serif;
 }
 
-.education-container h1 {
+.education-container h2 {
   margin-bottom: 20px;
   border-bottom: 2px solid #ccc;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .education-card {
   display: flex;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .education-item {
   background-color: #222;
   padding: 20px;
-  border-radius: 10px;
-  width: 300px;
+  width: 350px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
 }
 
 .education-item h2 {
@@ -223,4 +223,15 @@ button:focus-visible {
 
 .education-item p {
   margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-item {
+    width: 100%;
+  }
 }
