@@ -66,7 +66,7 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #efeee6;
   }
 }
 
@@ -132,6 +132,16 @@ button:focus-visible {
 .contact-box a:hover {
   text-decoration: underline;
 }
+/* Add this to your CSS file */
+.email-link {
+  color: inherit; /* This will inherit the color of the parent element */
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
 
 
 
@@ -192,7 +202,7 @@ button:focus-visible {
   background-color: #000;
   color: #fff;
   padding: 20px;
-  text-align: center;
+  
   font-family: Arial, sans-serif;
 }
 
