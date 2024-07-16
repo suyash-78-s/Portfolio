@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
+import Education from './components/Education';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About/>
+      <Education/>
       <Contact/>
       
     </div>
