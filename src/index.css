@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  
+  place-items: center;
+ 
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.contact-section {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.contact-section .bigName .big  {
+  font-size: 100px;
+  opacity: 0.1;
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-section h2 {
+  position: relative;
+  z-index: 1;
+  font-weight: 700;
+}
+
+.contact-section p {
+  position: relative;
+  z-index: 1;
+}
+
+.contact-box {
+  background-color: #1c1c1c;
+  padding:10px ;
+  
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+.contact-box:hover {
+  background-color: #333;
+}
+
+.contact-box .icon img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-box h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.contact-box p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.contact-box a {
+  color: #ffdd57;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+.portfolio-container {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.profile-section {
+  margin-bottom: 40px;
+}
+
+.profile-image {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-details h1,
+.profile-details p {
+  color: #fff;
+}
+
+.about-section h2 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.skill-bar {
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.skill-level {
+  background-color: #ffdd57;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.additional-info p {
+  margin-bottom: 10px;
+}
+
+.skills-section h3 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}

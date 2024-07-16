@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.hero {
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+  
+  align-items: center;
+}
+
+.hero .text {
+  max-width: 100%;
+}
+
+.hero .subheading {
+  font-size: 1.2rem;
+  color: #ffb400;
+}
+
+.hero h1 span {
+  color: #ffb400;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.hero .btn-primary {
+  background-color: #ffb400;
+  border-color: #ffb400;
+}
+
+.hero .btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+}
+
+.hero .img {
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+@media (min-width: 768px) {
+  .hero .img {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+.navbar {
+  background-color: #000;
+  
+}
+/* .navbar ul {
+  position: absolute;
+  background-color: #000;
+  right: 20px;
+} */
+
+.navbar .nav-link {
+  color: #ffb400;
+}
+
+
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+.navbar .nav-link:hover {
+  color: #fff;
+}
+
+
+/* src/PortfolioComponent.css */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+.about-section {
+  margin-bottom: 20px;
+}
+
+.additional-info p {
+  margin: 5px 0;
+}
+
+.skills-section {
+  margin-bottom: 20px;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.skill-level {
+  background-color: #ffbf00;
+  height: 100%;
+  border-radius: 5px;
+}
